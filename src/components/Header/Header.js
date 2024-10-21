@@ -51,9 +51,9 @@ const MainHeader = styled.div`
   display: flex;
   align-items: center;
   padding: 18px 32px;
-  height: 72px;
   border-bottom: 1px solid ${COLORS.gray[300]};
   border-top: 4px solid ${COLORS.gray[900]};
+  overflow: auto;
 
   @media ${MEDIA_QUERIES.laptop} {
     border-top: none;
